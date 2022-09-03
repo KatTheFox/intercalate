@@ -12,9 +12,12 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@commitlint/config-conventional": "^17.1.0",
     "@types/node": "^18.7.11",
     "axios": "^0.27.2",
     "chalk": "4.1.0",
+    "commitlint": "^17.1.2",
+    "husky": "^8.0.1",
     "isaacscript-lint": "^4.1.2",
     "isaacscript-tsconfig": "^2.0.0",
     "prettier": "^2.7.1",
