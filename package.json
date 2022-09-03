@@ -1,14 +1,15 @@
 {
   "name": "intercalate",
   "version": "1.0.0",
-  "description": "this rite recalls the Sun's abominable fate. it is used in desparate times by foolish adepts",
+  "description": "this rite recalls the Sun's abominable fate. it is used in desperate times by foolish adepts",
   "main": "index.js",
   "repository": "https://github.com/KatTheFox/intercalate",
   "author": "KatTheFox",
   "license": "GPL-3.0-only",
   "private": false,
   "scripts": {
-    "start": "node build/index.js"
+    "start": "node build/index.js",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@types/node": "^18.7.11",
